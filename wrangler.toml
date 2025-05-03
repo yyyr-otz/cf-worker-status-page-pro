@@ -1,11 +1,11 @@
-account_id = "0db3c9ec1d741afb9a63eab399c77c3b"
+account_id = "356ac37112b5151a6c8a15d22c091d99"
 name = "cf-worker-status-page-pro"
 main = "./src/worker/index.ts"
 compatibility_flags = [ "streams_enable_constructors" ]
 compatibility_date = "2021-09-29"
 workers_dev = true
 # npx --no -- wrangler kv:namespace create cf-worker-status-page-pro
-kv_namespaces = [ { binding = "KV_STORE", id = "83944df5b99b43a5804ba0902579194f" }, ]
+kv_namespaces = [ { binding = "KV_STORE", id = "89cf5741f34c49f9938eb7422d18e3e8" }, ]
 
 [site]
 bucket = "./dist/client"
@@ -14,7 +14,7 @@ bucket = "./dist/client"
 port = 3000
 
 [env.production]
-kv_namespaces = [ { binding = "KV_STORE", id = "83944df5b99b43a5804ba0902579194f" }, ]
+kv_namespaces = [ { binding = "KV_STORE", id = "89cf5741f34c49f9938eb7422d18e3e8" }, ]
 
 [env.production.triggers]
 crons = [
