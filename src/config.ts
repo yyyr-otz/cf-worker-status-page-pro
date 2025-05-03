@@ -4,7 +4,7 @@ export const config: Config = {
   settings: {
     title: "yyyr's Status Page Pro",
     url: 'https://cf-worker-status-page-pro-production.yyyrspeed.workers.dev',
-    displayDays: 90,
+    displayDays: 7,
     collectResponseTimes: true,
   },
   monitors: [
