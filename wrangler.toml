@@ -23,5 +23,5 @@ crons = [
   "*/10 * * * *",
   # https://crontab.guru/#*/10_*_*_*_*
   # Update remote csv monitors
-  "*/20 * * * *",
+  "0 0 */1 * *",
 ]
