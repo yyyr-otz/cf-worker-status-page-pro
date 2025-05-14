@@ -9,9 +9,9 @@ export const config: Config = {
   },
   monitors: [
     {
-      id: 'nezha-koyeb',
-      url: 'https://nezha-yyyrspeed.koyeb.app',
-      description: '哪吒@koyeb',
+      id: 'nezha-claw',
+      url: 'https://nezha-claw.yyyrspeed.nyc.mn',
+      description: '哪吒@claw',
       followRedirect: false,
     }
   ],
